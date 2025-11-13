@@ -310,7 +310,10 @@ void ExecuteMarketOrder(ENUM_ORDER_TYPE orderType, double volume)
       {
          //--- Try RETURN filling
          request.type_filling = ORDER_FILLING_RETURN;
-         OrderSend(request, result);
+         if(!OrderSend(request, result))
+         {
+            //--- All filling types failed, result.retcode will be checked below
+         }
       }
    }
    
@@ -401,7 +404,10 @@ void ClosePosition(ulong ticket)
       if(!OrderSend(request, result))
       {
          request.type_filling = ORDER_FILLING_RETURN;
-         OrderSend(request, result);
+         if(!OrderSend(request, result))
+         {
+            //--- All filling types failed, result.retcode will be checked below
+         }
       }
    }
    
