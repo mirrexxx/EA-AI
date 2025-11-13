@@ -1,0 +1,9 @@
+# Python dependencies for AI Trading Agent
+
+# Core dependencies (none required for basic functionality)
+
+# Optional: For LLM integrations (uncomment as needed)
+# openai>=1.0.0        # For OpenAI GPT integration
+# anthropic>=0.7.0     # For Claude integration
+# requests>=2.31.0     # For custom API calls
+# python-dotenv>=1.0.0 # For environment variables

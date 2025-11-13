@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+
+# Environment variables
+.env
+.env.local
+
+# MT5 data files (don't commit actual trading data)
+AI_commands.txt
+AI_snapshot.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# MT5 compiled files
+*.ex5
+
+# Temporary files
+tmp/
+temp/
+*.tmp

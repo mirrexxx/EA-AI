@@ -1,0 +1,50 @@
+{
+  "account": {
+    "balance": 10000.00,
+    "equity": 10050.00,
+    "margin": 100.00,
+    "free_margin": 9950.00,
+    "margin_level": 10050.00,
+    "profit": 50.00
+  },
+  "current_symbol": {
+    "name": "EURUSD",
+    "bid": 1.12345,
+    "ask": 1.12355,
+    "spread": 10
+  },
+  "positions": [
+    {
+      "ticket": 123456,
+      "symbol": "EURUSD",
+      "type": "BUY",
+      "volume": 0.10,
+      "open_price": 1.12300,
+      "sl": 1.12000,
+      "tp": 1.12500,
+      "profit": 50.00
+    },
+    {
+      "ticket": 123457,
+      "symbol": "GBPUSD",
+      "type": "SELL",
+      "volume": 0.05,
+      "open_price": 1.28500,
+      "sl": 1.28700,
+      "tp": 1.28300,
+      "profit": -15.00
+    }
+  ],
+  "pending_orders": [
+    {
+      "ticket": 123458,
+      "symbol": "EURUSD",
+      "type": "BUY_LIMIT",
+      "volume": 0.10,
+      "price": 1.12000,
+      "sl": 1.11800,
+      "tp": 1.12300
+    }
+  ],
+  "timestamp": "2025.11.13 14:30:00"
+}
